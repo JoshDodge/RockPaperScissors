@@ -1,5 +1,6 @@
 //Set a function called computer play. This will randomly return rock, paper or scissors
 let computerChoice = 0
+let userChoice = prompt("Please select rock, paper or scissors:");
 
 function computerPlay() {
   computerChoice = Math.floor(Math.random() * 3);
